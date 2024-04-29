@@ -1,0 +1,53 @@
+.todo-button {
+   width: 100%;
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ 
+ .todoitem {
+   display: flex;
+   align-items: center;
+   padding: 8px;
+   white-space: nowrap; /* Prevents wrapping */
+ }
+ 
+ .options {
+   cursor: pointer;
+   margin-left: auto;
+   visibility: ${showMenu ? 'hidden' : 'visible'}; /* Hide the dots when the menu is shown */
+
+ }
+ 
+ .todo-header {}
+ 
+ .todo-container {
+   width: 300px;
+   padding: 10px 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: white;
+   border-radius: 20px;
+ }
+ 
+ body {
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ 
+ .todo-item-text {
+   flex-grow: 1; /* Allows the text to grow and fill the available space */
+   overflow: hidden; /* Prevents overflow of long text */
+   text-overflow: ellipsis; /* Displays an ellipsis (...) when text overflows */
+ }
+ 
+ .input-field {
+   flex: 1;
+   align-items: center;
+   border-radius: 10px;
+ }
+ 
