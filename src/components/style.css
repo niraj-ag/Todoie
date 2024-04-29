@@ -17,12 +17,10 @@
  .options {
    cursor: pointer;
    margin-left: auto;
-   visibility: ${showMenu ? 'hidden' : 'visible'}; /* Hide the dots when the menu is shown */
+    
 
  }
- 
- .todo-header {}
- 
+
  .todo-container {
    width: 300px;
    padding: 10px 20px;
