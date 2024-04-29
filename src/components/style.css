@@ -17,8 +17,6 @@
  .options {
    cursor: pointer;
    margin-left: auto;
-    
-
  }
 
  .todo-container {
@@ -48,4 +46,7 @@
    align-items: center;
    border-radius: 10px;
  }
- 
+
+ .todoitem.completed .todo-item-text {
+  text-decoration: line-through;
+}
